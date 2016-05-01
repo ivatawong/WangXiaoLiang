@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    tools:context="cn.studyjams.s1.sj30.wangxiaoliang.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="8dp">
+
+            <ImageView
+                android:id="@+id/lishi"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/lishi" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/lishi"
+                android:layout_gravity="bottom"
+                android:text="我们不知道首次发现咖啡的具体时间，但是考古学家们发现了大约公元前900年左右咖啡作为药物在阿拉伯世界使用的早期记载证据。一般认为发现咖啡的传奇故事源于一位叫做Kaldi的埃塞俄比亚牧羊人（约公元300年）。他发现他的羊群吃了某种红色浆果之后变得异常兴奋。他决定自己亲自品尝一下，结果发现咖啡浆果具有带来活力的效用。逐渐地，咖啡浆果作为给人们带来精力充沛的食物得到了传播，人们还发现到通过焙烧浆果可以获得可口的饮料，并且可以对其冲泡饮用。咖啡的使用从埃塞俄比亚传播到近东（Near East），第一个咖啡种植园在也门诞生。后来咖啡的种植扩散到阿拉伯和埃及，在这些地方，喝咖啡（或称为“ Kahweh ”）很快成为了日常习惯。直到17世纪初期，咖啡才在欧洲流行起来，它也快速赢得了大家的喜爱。在1600年的年初，咖啡馆开始遍地开花，尤其是在意大利，法国，英国，荷兰和德国。经过300多年的时间，人们对这种风味特殊的饮品欲罢不能，咖啡从上流社会的装饰演变成百姓生活的必需品，形成了生活中“朝也咖啡，暮也咖啡”的习俗。"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

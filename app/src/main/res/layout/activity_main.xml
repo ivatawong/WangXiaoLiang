@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.studyjams.s1.sj30.wangxiaoliang.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="8dp">
+
+            <ImageView
+                android:id="@+id/coffee"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/coffee" />
+
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/coffee"
+                android:text="咖啡是当今社会流行范围最广的饮料之一，深受中西方人士的欢迎，已经成了一种生活的必需品。如果你对这方面内容感兴趣，请走进“咖啡文化”，相信你会有所收获。"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/lishi"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textview"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:onClick="lishi"
+                android:text="咖啡的历史"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/zhongzhi"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lishi"
+                android:layout_centerHorizontal="true"
+                android:onClick="zhongzhi"
+                android:text="咖啡的种植"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/hongpei"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/zhongzhi"
+                android:layout_centerHorizontal="true"
+                android:onClick="hongpei"
+                android:text="咖啡的烘培"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tiaozhi"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hongpei"
+                android:layout_centerHorizontal="true"
+                android:onClick="tiaozhi"
+                android:text="咖啡的调制"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/pinchang"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tiaozhi"
+                android:layout_centerHorizontal="true"
+                android:onClick="pinchang"
+                android:text="咖啡的品尝"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

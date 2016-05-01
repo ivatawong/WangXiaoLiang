@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    tools:context="cn.studyjams.s1.sj30.wangxiaoliang.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="8dp">
+
+            <ImageView
+                android:id="@+id/hongpei"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/hongpei" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/hongpei"
+                android:layout_gravity="bottom"
+                android:text="生咖啡豆本身是没有任何咖啡的香味儿的，只有在炒熟了之后，才能够闻到浓郁的咖啡香味儿。所以咖啡豆的烘焙是咖啡豆内部成分的转化过程， 只有经过烘焙之后产生了能够释放出咖啡香味的成分，我们才能闻到咖啡的香味儿。咖啡的烘培一般需要经过四个阶段。\n（一）蒸焙阶段:00-10分钟; 放生豆-140C°;这是咖啡豆吸热反应最重要的过程,这个阶段豆子会慢慢膨胀,颜色会从生豆的绿色转变成白色,水分因为豆子的吸热,而会慢慢从豆心往外蒸发,咖啡好不好喝就是看这个阶段,当水分蒸发的太快,就容易造成豆心不熟,豆子容易苦涩,而当水分蒸发的太慢,就会造成咖啡味道平淡,香气不丰富。所以我们坚持蒸培过程绝对不能省略,而且还要利用这个过程让咖啡更香,更浓,更好喝。\n（二）脱水阶段(一爆前):10-15分钟;140-180C°;当蒸培结束后,咖啡豆会从白色,迅速转化成黄浅褐色,这时咖啡豆会持续吸热到达一爆,咖啡豆会由蒸培时的膨胀,转变成缩小脱水,这时咖啡豆的水分会迅速降低,当吸热到达咖啡本身的极点时,就会产生爆炸反应,这就是所谓的一爆。\n（三）一爆阶段(一爆结束二爆前):15-18分钟;180-210C°;一爆开始后,咖啡豆就会开始回馈您给它的恰恰好的热能,表现出完美的放热反应,这时我们就能明显闻到,咖啡的香味会从青草味变成咖啡焦炭味,而随著一爆的进行,咖啡豆也会爆裂涨大。此时开始到烧焦为止,基本上咖啡都可以喝了,不会有青草味道,不过一爆开始时的咖啡会很酸,不苦。随著时间的进行,咖啡味道会反应转化成不酸,极苦,一般来说下豆点都会由咖啡本身的风味来决定,当酸味快不见,苦味快出现的时候,通常这都会是下豆点,这时下豆的咖啡回甘度会到达顶点,香味也会最佳化。这个点取决于咖啡本身的风味,由于生长环境,气候,土壤,水分的不同,咖啡的风味就会有些许的不一样。\n（四）二爆阶段:18-20分钟;210C°下豆;经过第一次的爆裂后,咖啡豆会慢慢趋缓成熟,散发出迷人的香气,而当吸热再次到达第二个顶点后,咖啡豆就会发生第二次爆炸,就是所谓的二爆,在表皮的内心,会涨开一个空间,咖啡豆内的二氧化碳会持续排出,造成内部温度持续升高,开始焦炭化,转变成油脂,渗出咖啡表面,此时咖啡风味会偏苦,香味浓郁,到此就是一场咖啡豆的完美演出。"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

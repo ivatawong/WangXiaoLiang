@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    tools:context="cn.studyjams.s1.sj30.wangxiaoliang.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="8dp">
+
+            <ImageView
+                android:id="@+id/zhongzhi"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/zhongzhi" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/zhongzhi"
+                android:layout_gravity="bottom"
+                android:text="气候是咖啡种植的决定性因素，咖啡树只适合生长在热带或亚热带，所以南北纬25度之间的地带，最适合栽植咖啡。而这个咖啡生产地带，一般称为“咖啡带”或“咖啡区”。但是，并非所有位于此区内的土地，都能培育出优良的咖啡树。咖啡树最理想的种植条件为：温度介于15-25℃之间的温暖气候，而且一整年的降雨量必须达到1500-2000毫米，同时其降雨时间，要能配合咖啡树的开花周期。当然，除了季节和雨量的配合外，还要有肥活的土壤。最适合栽培咖啡的土壤，是排水良好，含火山灰质的肥活土壤。另外，日光虽然是咖啡成长及结果所不可欠缺的要素，但过于强烈的阳光会影响咖啡树的成长，故各个产地通常会配合种植一些遮阳树，一般多种植香蕉、芒果以及豆科植物等树干较高的植物。至于最理想的海拔高度应该为500-2000米。因此，生长在海拔800-1200米的牙买加蓝山咖啡品质最佳。由此可知，栽培高品质咖啡的条件相当严格：阳光、雨量、土壤、气温，以及咖啡豆采收的方式和制作过程，都会影响到咖啡本身的品质。 "
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
